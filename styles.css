@@ -104,10 +104,10 @@ thead, th{
     display: flex;
     flex-direction: row;
     text-justify: auto;
-    background-color: #d22121;
+    background-color: #f82525;
 }
 #PASODOBLE {
-    background-color: #a62aff;
+    background-color: #b64fff;
 }
 #JIVE {
     background-color: #1888ff;
@@ -128,10 +128,10 @@ thead, th{
 
 /* Specifické styly pro navigační odkazy */
 #navSamba {
-    background-color: #D48F38;
+    background-color: #c06900;
 }
 #navChacha {
-    background-color: #e7783c;
+    background-color: #b74202;
 }
 #navRumba {
     background-color: #881515;
