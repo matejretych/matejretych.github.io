@@ -107,6 +107,8 @@ thead, th{
     background-color: #f82525;
 }
 #PASODOBLE {
+    display: flex;
+    flex-direction: row;
     background-color: #b64fff;
 }
 #JIVE {
@@ -153,7 +155,7 @@ thead, th{
     background-color: #d22121;
 }
 #navPasodoble:hover {
-    background-color: #a62aff;
+    background-color: #b64fff;
 }
 #navJive:hover {
     background-color: #1888ff;
@@ -213,7 +215,6 @@ thead, th{
 .count-container {
     display: flex;
     justify-content: center;
-    
     flex: 0 0 50%;
     font-weight: bold;
     color: black;
@@ -223,7 +224,14 @@ thead, th{
     background-blend-mode: color-burn;
 
 }
+.paso-bgimg{
 
+    flex: 0 0 50%;
+    min-height: 200px;
+    background: #b64fff url('pasodoble.jpg') no-repeat center center;
+    background-size:contain;
+    background-blend-mode: color-burn;
+}
 
 
 /* Zápatí */
