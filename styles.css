@@ -67,7 +67,7 @@ a{
     text-decoration: none;
     color: black;
 }
-/* Kontejner pro hlavní obsah */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -75,7 +75,6 @@ a{
     color: black;
 }
 
-/* Sekce s obsahem */
 section {
     background-color: #e73e3e;
     padding: 5%;
@@ -83,7 +82,7 @@ section {
 thead, th{
     border: 1px solid;
 }
-/* Specifické barvy sekcí */
+
 #INTRO {
     display: flex;
     flex-direction: column;
@@ -117,7 +116,7 @@ thead, th{
 #VIDEO{
     width: 50%;
 }
-/* Flexbox utility */
+
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -128,7 +127,6 @@ thead, th{
     flex-direction: row;
 }
 
-/* Specifické styly pro navigační odkazy */
 #navSamba {
     background-color: #8e6f01;
 }
@@ -161,7 +159,6 @@ thead, th{
     background-color: #1888ff;
 }
 
-/* Počítadlo – položky překrývané absolutně */
 .count {
     align-items: center;
 }
@@ -175,7 +172,7 @@ thead, th{
 
 }
 
-/* Individuální animace pro jednotlivé položky */
+
 /* 1: viditelné 0% - 25% (0-1s) */
 @keyframes show1 {
     0%, 25% { opacity: 1; }
@@ -211,7 +208,6 @@ thead, th{
 .cha { animation-name: showCha; }
 .cha2 { animation-name: showcha; }
 
-/* Kontejner pro animovaný čítač */
 .count-container {
     display: flex;
     justify-content: center;
@@ -233,8 +229,6 @@ thead, th{
     background-blend-mode: color-burn;
 }
 
-
-/* Zápatí */
 footer {
     text-align: center;
     padding: 1rem;
@@ -251,7 +245,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responzivní úpravy pro menší obrazovky */
 @media (max-width: 600px) {
     header {
         font-size: xx-large;
