@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taneční kurzy Latinskoamerických tanců</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Taneční kurzy</h1>
+    <p class="leader">Objevte svět latinskoamerických tanců a nechte se unést rytmem!</p>
+  </header>
+  
+  <div class="container">
+    <nav>
+      <a id="navSamba" href="#SAMBA">Samba</a>
+      <a id="navChacha" href="#CHACHA">Cha-cha</a>
+      <a id="navRumba" href="#RUMBA">Rumba</a>
+      <a id="navPasodoble" href="#PASODOBLE">Paso Doble</a>
+      <a id="navJive" href="#JIVE">Jive</a>
+    </nav>
+
+    <section id="INTRO">
+        <h2>Vítejte na taneční škole</h2>
+        <p>
+          Přijďte se naučit latinskoamerické tance, získejte sebevědomí a elegantní pohyby. Naše škola nabízí kurzy pro všechny úrovně – od úplných začátečníků až po pokročilé tanečníky.
+        </p>
+        <p>
+          V této kapitole se dozvíte, jak probíhá výuka, jaké techniky se v kurzech používají a jak můžete díky tanci zlepšit svou fyzickou kondici i sebevyjádření. Naše přátelská atmosféra a profesionální lektoři vám pomohou objevit radost z pohybu.
+        </p>
+        <table > <caption >Porovnání latinskoamerických tanců</caption> <thead>
+            <tr> <th>Tanec</th> <th>Rytmus</th> <th>Původ</th> <th colspan="2">Charakteristika</th> </tr> </thead> 
+            <tbody> <tr> <td>Samba</td> <td>2/4</td> <td>Brazílie</td> <td rowspan="2">Energická, rychlá práce boků</td> <td rowspan="2">Silné pohyby boků</td> </tr> 
+            <tr> <td>Cha-cha</td> <td>4/4</td> <td>Kuba</td> </tr> <tr> 
+            <td>Rumba</td> <td>4/4</td> <td>Kuba</td> <td rowspan="2">Smyslná, pomalá dynamika</td> <td rowspan="2">Silná práce těla</td> </tr> <tr> 
+            <td>Paso Doble</td> <td>2/4</td> <td>Španělsko</td> </tr> <tr> 
+            <td>Jive</td> <td>4/4</td> <td>USA</td> <td colspan="2">Rychlý, skákavý, inspirovaný swingem</td> </tr> </tbody> </table>
+  
+    </section>
+    <section id="prihlaska">
+        <h2>Přihláška na kurz</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Registrace do kurzu</legend>
+            
+            <label for="name">Jméno (uveďte své jméno nebo jména obou v páru):</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email"><br>E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <p>Přihláška pro:</p>
+            <input type="radio" id="individual" name="typ" value="individual" required>
+            <label for="individual">Jednotlivec</label>
+            <input type="radio" id="couple" name="typ" value="couple">
+            <label for="couple">Pár</label>
+            
+            <label for="dance"><br>Vyberte tanec:</label>
+            <select id="dance" name="dance">
+              <option value="samba">Samba</option>
+              <option value="cha-cha">Cha-cha</option>
+              <option value="rumba">Rumba</option>
+              <option value="paso-doble">Paso Doble</option>
+              <option value="jive">Jive</option>
+            </select>
+            
+            <input type="submit" value="Přihlásit se">
+          </fieldset>
+        </form>
+        <p><a href="#top">🔗 Zpět na začátek</a></p>
+      </section>
+
+    <section id="SAMBA">
+        <div>
+            <h2>Samba</h2>
+            <p>
+                Samba je energický a rytmický tanec původem z Brazílie. Její kořeny sahají až k africkým a portugalským hudebním tradicím.
+            </p>
+            <h3>Charakteristiky samby:</h3>
+            <ul>
+                <li><strong>Rytmus:</strong> 2/4</li>
+                <li><strong>Původ:</strong> Brazílie</li>
+                <li><strong>Pohyby:</strong>
+                    <ul>
+                        <li>Bounce action</li>
+                        <li>Rychlé změny váhy</li>
+                        <li>Kruhové pohyby boků</li>
+                        <li>Dynamické kroky vpřed a vzad</li>
+                        <li>Silné zapojení kolen</li>
+                        <li>Otevřené a zavřené pozice</li>
+                        <li>Izolované pohyby horní části těla</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Styly samby</h3>
+            <ol>
+                <li>Axé samba</li>
+                <li>Partido alto</li>
+                <li>Samba reggae</li>
+            </ol>
+
+            <h3>Typické figury samby</h3>
+            <ul>
+                <li><strong>Samba walks</strong></li>
+                <li><strong>Botafogo</strong></li>
+                <li><strong>Volta movement</strong></li>
+                <li><strong>Promenade runs</strong></li>
+                <li><strong>Corta Jaca</strong></li>
+                <li><strong>Whisk</strong></li>
+                <li><strong>Samba roll</strong></li>
+            </ul>
+
+            <p><a href="#top">Zpět na začátek</a></p>
+        </div>
+      <img src="samba_piktogram.png" alt="Samba tanec" id="samba_piktogram">
+    </section>
+
+    <section id="CHACHA">
+        <div class="count-container">
+            <div class="count">
+              <span class="item one">1</span>
+              <span class="item two">2</span>
+              <span class="item three">3</span>
+              <span class="item cha">Cha</span>
+              <span class="item cha2">cha</span>
+            </div>
+          </div>
+        <div>
+          <h2>Cha-cha</h2>
+          <p>
+            Cha-cha je dynamický a svižný tanec, který kombinuje eleganci s výraznými rytmickými změnami.
+          </p>
+            <h3>Prvky cha-chy</h3>
+          <ul>
+              <li><strong>Tempo:</strong> 4/4</li>
+              <li><strong>Původ:</strong> Kuba</li>
+          </ul>
+      
+          <h3>Technika</h3>
+          <ul>
+              <li>Rychlý pohyb boků</li>
+              <li>Ostré kroky</li>
+              <li>Precizní rytmizace</li>
+              <li>Postavení s mírným sklonem dopředu</li>
+              <li>Kontrola pohybu nohou</li>
+              <li>Silné použití kyčlí</li>
+              <li>Synchronizace s hudbou</li>
+          </ul>
+      
+          <h3>Oblíbené variace cha-chy</h3>
+          <ol>
+              <li>Basic movement</li>
+              <li>New York</li>
+              <li>Cuban break</li>
+              <li>Alemana</li>
+              <li>Hand to hand</li>
+              <li>Hockey Stick</li>
+              <li>Spot turn</li>
+          </ol>
+      
+          <p><a href="#top">Zpět na začátek</a></p>
+        </div>
+        
+    </section>
+
+    <section id="RUMBA">
+        <div>
+              <h2>Rumba</h2>
+              <p>
+                Rumba je pomalý, smyslný a elegantní tanec, jehož podstatou je vyjádření emocí a harmonie mezi partnery.
+              </p>
+              <h3>Základní rysy rumby</h3>
+            <ul>
+                <li><strong>Hudební rytmus:</strong> 4/4</li>
+                <li><strong>Původ:</strong> Kuba</li>
+            </ul>
+        
+            <h3>Technika</h3>
+            <ul>
+                <li>Silná práce chodidel</li>
+                <li>Kontrolované pohyby těla</li>
+                <li>Smyslná interpretace</li>
+                <li>Elegantní a ladné pohyby</li>
+                <li>Důraz na hip-action</li>
+                <li>Pomalé, kontrolované kroky</li>
+                <li>Plynulé přechody mezi figurami</li>
+            </ul>
+        
+            <h3>Hlavní figury rumby</h3>
+            <ol>
+                <li>Box step</li>
+                <li>Fan</li>
+                <li>Alemana</li>
+                <li>Open hip twist</li>
+                <li>Sliding doors</li>
+                <li>Cucaracha</li>
+                <li>Spiral turn</li>
+            </ol>
+            <p><a href="#top">Zpět na začátek</a></p>
+        </div>
+        <div id="VIDEO">
+            <iframe width="auto" height="auto"
+                src="https://www.youtube.com/watch?v=ddX1zEtnRaA">
+            </iframe>
+        </div>
+      
+    </section>
+
+    <section id="PASODOBLE">
+      <h2>Paso Doble</h2>
+      <p>
+        Paso Doble je dramatický a impozantní tanec, inspirovaný španělskou kulturou a tradicí corridy.
+      </p>
+      <h3>Vlastnosti Paso Doble</h3>
+    <ul>
+        <li><strong>Rytmus:</strong> 2/4</li>
+        <li><strong>Původ:</strong> Španělsko</li>
+    </ul>
+
+    <h3>Dynamika tance</h3>
+    <ul>
+        <li>Pevné držení těla</li>
+        <li>Dramatické zastavení</li>
+        <li>Expresivní pohyb rukou</li>
+        <li>Otevřená ramena</li>
+        <li>Důrazné pohyby nohou</li>
+        <li>Hrdý postoj</li>
+        <li>Napjaté svalstvo horní části těla</li>
+    </ul>
+
+    <h3>Figury s dramatickým efektem</h3>
+    <ol>
+        <li>Appel</li>
+        <li>Sur Place</li>
+        <li>Chasse Cape</li>
+        <li>Sixteen</li>
+        <li>Grand Circle</li>
+        <li>Twists</li>
+        <li>Spanish Line</li>
+    </ol>
+
+    <p><a href="#top">Zpět na začátek</a></p>
+    </section>
+
+    <section id="JIVE">
+      <h2>Jive</h2>
+      <p>
+        Jive je rychlý a energický tanec, který přináší radost a spontánnost do každého tance.
+      </p>
+      <h2>Jive</h2>
+    <p>Jive je svižný a energický tanec pocházející z USA.</p>
+
+    <h3>Klíčové rysy jivu</h3>
+    <ul>
+        <li><strong>Hudební rytmus:</strong> 4/4</li>
+        <li><strong>Původ:</strong> USA</li>
+    </ul>
+
+    <h3>Důležité techniky</h3>
+    <ul>
+        <li>Rychlé přenášení váhy</li>
+        <li>Skákavé pohyby</li>
+        <li>Rytmické kopy</li>
+        <li>Odrazy od země</li>
+        <li>Uvolněné držení partnera</li>
+        <li>Nepřetržitý pohyb</li>
+        <li>Zdůrazněné akcenty na druhou dobu</li>
+    </ul>
+
+    <h3>Typické kroky jivu</h3>
+    <ol>
+        <li>Basic in place</li>
+        <li>American Spin</li>
+        <li>Kick Ball Change</li>
+        <li>Toe Heel Swivels</li>
+        <li>Stop and Go</li>
+        <li>Mooch</li>
+        <li>Chicken Walks</li>
+    </ol>
+
+    <p><a href="#top">Zpět na začátek</a></p>
+    </section>
+    
+      
+  </div>
+
+  
+  <footer>
+    <p><a href="https://validator.w3.org/check?uri=referer" target="_blank">Validovat HTML</a></p>
+    <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=referer" target="_blank">Validovat CSS</a></p>
+    <p><a href="https://wave.webaim.org/report" target="_blank">Audit WCAG 2.1</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,264 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #390101; 
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 50rem;
+    text-align: center;
+    font-size: xxx-large;
+    background: #390101 url('header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+header .leader {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    justify-content: center;
+    font-size: x-large;
+}
+
+nav a {
+    display: flex;
+    flex: auto;
+    min-height: 2em;
+    margin: 0 1%;
+    padding-bottom: 0.5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    justify-content: center;
+    align-items: end;
+    text-decoration: none;
+    color: azure;
+    background-color: #5b0202;
+}
+
+nav a:hover {
+    color: black;
+}
+
+img{
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+span{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Kontejner pro hlavní obsah */
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e73e3e;
+    color: black;
+}
+
+/* Sekce s obsahem */
+section {
+    background-color: #e73e3e;
+    padding: 5%;
+}
+thead, th{
+    border: 1px solid;
+}
+/* Specifické barvy sekcí */
+#INTRO {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#SAMBA {
+    background-color: #FFC107;
+    display: flex;
+    flex-direction: row;
+}
+#CHACHA {
+    display: flex;
+    flex-direction: row;
+    text-justify: auto;
+    background-color: #FF6F00;
+}
+#RUMBA {
+    display: flex;
+    flex-direction: row;
+    text-justify: auto;
+    background-color: #d22121;
+}
+#PASODOBLE {
+    background-color: #a62aff;
+}
+#JIVE {
+    background-color: #1888ff;
+}
+#VIDEO{
+    width: 50%;
+}
+/* Flexbox utility */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#page-with-img {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Specifické styly pro navigační odkazy */
+#navSamba {
+    background-color: #D48F38;
+}
+#navChacha {
+    background-color: #e7783c;
+}
+#navRumba {
+    background-color: #881515;
+}
+#navPasodoble {
+    background-color: #5E2D79;
+}
+#navJive {
+    background-color: #446E9C;
+}
+
+#navSamba:hover {
+    background-color: #FFC107;
+}
+#navChacha:hover {
+    background-color: #FF6F00;
+}
+#navRumba:hover {
+    background-color: #d22121;
+}
+#navPasodoble:hover {
+    background-color: #a62aff;
+}
+#navJive:hover {
+    background-color: #1888ff;
+}
+
+/* Počítadlo – položky překrývané absolutně */
+.count {
+    align-items: center;
+}
+.count .item {
+    font-size: 6em;
+    font-weight: bold;
+    margin: auto;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+
+/* Individuální animace pro jednotlivé položky */
+/* 1: viditelné 0% - 25% (0-1s) */
+@keyframes show1 {
+    0%, 25% { opacity: 1; }
+    25.01%, 100% { opacity: 0; }
+}
+/* 2: viditelné 25% - 50% (1-2s) */
+@keyframes show2 {
+    0%, 25% { opacity: 0; }
+    25.01%, 50% { opacity: 1; }
+    50.01%, 100% { opacity: 0; }
+}
+/* 3: viditelné 50% - 75% (2-3s) */
+@keyframes show3 {
+    0%, 50% { opacity: 0; }
+    50.01%, 75% { opacity: 1; }
+    75.01%, 100% { opacity: 0; }
+}
+/* Cha: viditelné 75% - 87.5% (3-3.5s) */
+@keyframes showCha {
+    0%, 75% { opacity: 0; }
+    75.01%, 87.5% { opacity: 1; }
+    87.51%, 100% { opacity: 0; }
+}
+/* cha: viditelné 87.5% - 100% (3.5-4s) */
+@keyframes showcha {
+    0%, 87.5% { opacity: 0; }
+    87.51%, 100% { opacity: 1; }
+}
+
+.one { animation-name: show1; }
+.two { animation-name: show2; }
+.three { animation-name: show3; }
+.cha { animation-name: showCha; }
+.cha2 { animation-name: showcha; }
+
+/* Kontejner pro animovaný čítač */
+.count-container {
+    display: flex;
+    justify-content: center;
+    
+    flex: 0 0 50%;
+    font-weight: bold;
+    color: black;
+    min-height: 200px;
+    background: #FF6F00 url('chacha.jpg') no-repeat center center;
+    background-size:contain;
+    background-blend-mode: color-burn;
+
+}
+
+
+
+/* Zápatí */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #390101;
+    color: white;
+}
+
+footer a {
+    color: azure;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responzivní úpravy pro menší obrazovky */
+@media (max-width: 600px) {
+    header {
+        font-size: xx-large;
+    }
+    nav {
+        font-size: medium;
+        flex-direction: row;
+    }
+    #SAMBA{
+        flex-direction: column;
+    }
+    #CHACHA{
+        flex-direction: column;
+    }
+    #RUMBA{
+        flex-direction: column;
+    }
+}
